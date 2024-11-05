@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+h1{
+    font-family: 'Luckiest Guy';
+    font-weight: 400;
+    max-width: 400px;
+    height: auto;
+}
+h2, p{
+    font-family: "Open Sans";
+}

@@ -1,0 +1,47 @@
+@media (max-width: 430px) {
+    header{
+        max-width: 100vw;
+        height: 5vh;
+        background-position: -630px;
+        padding: 0;
+    }
+    .container-header{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        text-align: start;
+        max-width: 100%;
+        padding: 20px;
+    }
+    .container-header h1{
+        font-size: 4.5rem;
+        line-height: 5rem;
+    }
+    .container-header p{
+        font-size: 1.5rem;
+    }
+    .button-header{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .baixar{
+        font-size: medium;
+    }
+    .abra{
+        font-size: medium;
+    }
+}
+@media (min-width: 431) and (max-width: 768px) {
+    /* Ajustes no layout das seções */
+    .container-section section {
+        flex-direction: column;
+    }
+
+    .button-header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
