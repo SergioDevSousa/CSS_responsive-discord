@@ -3,69 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/reset.css">
-    <link rel="stylesheet" href="./assets/fonts.css">
-    <link rel="stylesheet" href="./assets/styles.css">
-    <link rel="stylesheet" href="./assets/media.css">
-    <title>Replica Discord</title>
+    <link rel="stylesheet" href="./assets/css/fonts.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/media.css">
+    <title>Clone Discord</title>
 </head>
 <body>
     <header>
-        <div class="container-header">
-            <h1>Imagine um lugar...</h1>
-            <p>…onde você possa pertencer a um clube escolar, um grupo de gamers, ou uma comunidade artística mundial. Onde você e alguns amigos possam passar um tempo juntos. Um lugar que torna fácil conversar todos os dias e socializar com mais frequência</p>
-            <div class="button-header">
-                <a class="baixar" href="#link-para-download">Baixar para Windows</a>
-                <a class="abra" href="#link-para-navegador">Abra o Discord no seu Navegador</a>
-            </div>
-        </div>
+        <section id="header-content">
+            <h1>
+                Imagine um lugar...
+            </h1>
+            <p>
+                …onde você possa pertencer a um clube escolar, um grupo de gamers, ou uma comunidade artística 
+            mundial. Onde você e alguns amigos possam passar um tempo juntos. Um lugar que torna fácil 
+            conversar todos os dias e socializar com mais frequência.
+            </p>
+            <section id="header-buttons">
+                <button id="baixar">Baixar para Windows</button>
+                <button id="abra">Abrir o Discord no seu navegador</button>
+            </section>
+        </section>
     </header>
     <main>
-        <div class="container-section">
-            <section class="section section-1">
-                <picture>
-                    <source media="(min-width: 1024px)" srcset="imagem media.png"/>
-                    <source media="(max-width: 430px)" srcset="imagem-pequena.png"/>
-                    <img src="./assets/image/Section Image1.png" alt="imagem seção 1"/>
-                </picture>
-                    <div class="descricao-section1">
-                        <h2>Crie um espaço controlado por convite onde você se sinta em casa.</h2>
-                        <p>Os servidores Discord são organizados em canais com assuntos para você colaborarem, compartilharem ou simplesmente falarem do dia sem entupir um chat geral.</p>
-                    </div>
-            </section>
-            <section class="section section-2">
-                <picture>
-                    <source media="(min-width: 1024px)" srcset="imagem media.png"/>
-                    <source media="(max-width: 430px)" srcset="imagem-pequena.png"/>
-                    <img src="./assets/image/Section Image2.png" alt="imagem seção 2"/>
-                </picture>
-                    <div class="descricao-section2">
-                        <h2>Aqui é fácil se encontrar.</h2>
-                        <p>Entre no canal de voz quando estiver à toa. Amigos no mesmo servidor podem te ver e entrar imediatamente, sem nem ter que fazer a chamada.</p>
-                    </div>
-            </section>
-            <section class="section section-3">
-                <picture>
-                    <source media="(min-width: 1024px)" srcset="imagem media.png"/>
-                    <source media="(max-width: 430px)" srcset="imagem-pequena.png"/>
-                    <img src="./assets/image/Section Image3.png" alt="imagem seção 3"/>
-                </picture>
-                    <div class="descricao-section3">
-                        <h2>Para poucos e para muitos.</h2>
-                        <p>Organize qualquer comunidade com ferramentas de moderação e acesso personalizado a membros. Dê poderes especiais aos membros, monte canais privados e muito mais.</p>
-                    </div>
-            </section>
-            <section class="section section-4">
-                <div class="descricao-section4">
-                    <h2>Tecnologia de conexão confiável.</h2>
-                    <p>Voz e vídeo de baixa latência, para você conversar como se estivesse na mesma sala. Dê um joinha por vídeo, veja amigos transmitirem a jogatina do dia ou junte uma galera pra desenhar uma tela compartilhada.</p>
-                </div>
-                <picture>
-                    <source media="(min-width: 1024px)" srcset="imagem media.png"/>
-                    <source media="(max-width: 430px)" srcset="imagem-pequena.png"/>
-                    <img src="./assets/image/Section Image4.png" alt="imagem seção 4"/>
-                </picture>
-            </section>
+        <div id="container-main-section">
+            <!-- seção 1 imagem a esquerda -->
+            <div class="container-info-discord normal">
+                <section id="image-discord-crie">
+                    <picture>
+                        <img src="assets/image/Section Image1.png" alt="Canais do Discord">
+                    </picture>
+                </section>
+                
+                <section id="info-discord-crie">
+                    <h3>Crie um espaço controlado por convite onde você se sinta em casa</h3>
+                    <p>
+                        Os servidores Discord são organizados em canais com assuntos para vocês colaborarem, 
+                        compartilharem ou simplesmente falarem do dia sem entupir um chat geral.
+                    </p>
+                </section>
+            </div>
+        
+            <!-- seção 2  imagem invertida-->
+            <div class="container-info-discord invertido">
+                <section id="image-discord-aqui">
+                    <picture>
+                        <img src="./assets/image/Section Image2.png" alt="Canais do Discord">
+                    </picture>
+                </section>
+                
+                <section id="info-discord-aqui">
+                    <h3>Aqui é fácil se encontrar</h3>
+                    <p>
+                        Entre no canal de voz quando estiver à toa. Amigos no mesmo servidor podem te ver e entrar imediatamente, sem nem ter que fazer a chamada.
+                    </p>
+                </section>
+            </div>
+            <!-- seção 3 imagem a esquerda-->
+            <div class="container-info-discord normal">
+                <section id="image-discord-para">
+                    <picture>
+                        <img src="./assets/image/Section Image3.png" alt="Canais do Discord">
+                    </picture>
+                </section>
+                
+                <section id="info-discord-para">
+                    <h3>Para poucos e para muitos</h3>
+                    <p>
+                        Organize qualquer comunidade com ferramentas de moderação e acesso personalizado a membros. Dê poderes especiais aos membros, monte canais privados e muito mais.
+                    </p>
+                </section>
+            </div>
+            <!--seção 4 texto e imagem em coluna -->
+            <div class="container-info-discord base">
+                <section id="info-discord-tecnologia">
+                    <h3>Para poucos e para muitos</h3>
+                    <p>
+                        Organize qualquer comunidade com ferramentas de moderação e acesso personalizado a membros. Dê poderes especiais aos membros, monte canais privados e muito mais.
+                    </p>
+                </section>
+                <section id="image-discord-tecnologia">
+                    <picture>
+                        <img src="./assets/image/Section Image4.png" alt="Canais do Discord">
+                    </picture>
+                </section>
+                
+            </div>
         </div>
     </main>
     <footer>
@@ -73,5 +97,6 @@
             <img src="./assets/image/logo-discord.png" alt="Logo do Discord"/>
         </div>
     </footer>
+
 </body>
 </html>
