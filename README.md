@@ -9,7 +9,7 @@ Este projeto é uma recriação da página inicial do Discord, construída com H
 ## Funcionalidades
 
 - **Layout Responsivo:** Ajuste automático para diferentes tamanhos de tela.
-- **Seções Alternadas:** Imagens e textos alinhados alternadamente em cada seção.
+- **Seções Alternadas:** Imagens e textogits alinhados alternadamente em cada seção.
 - **Componentes de Interface:** Botões interativos para ações principais, como baixar e abrir o Discord.
 
 ## Estrutura de Pastas
@@ -41,7 +41,7 @@ git clone https://github.com/SergioDevSousa/CSS_responsive-discord.git
 
 2 - Abra o arquivo index.html em seu navegador para visualizar a página
 
-![Capturas de Tela Mobile](./assets/image/127.0.0.1_5500_index.html(iPhone%2014%20Pro%20Max).png)
+![Capturas de Tela Mobile](./assets/image/mobile.png)
 
 ### Melhorias Futuras
 
